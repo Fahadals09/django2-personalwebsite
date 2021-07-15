@@ -1,25 +1,27 @@
 user.
-Title
-subtitle
+name
+password
+
 About me.
 -intro-Title-description-imge-social media links
--experience -date from-to - description 
+-experience- title -date from-to - description 
 
 Skils%
 
-Sevices
+Sevices *
 -icon
 -name
 -description 
+
 My Portfolio 
 -category
 -images
 
-what buyer's say 
+Feedback *
 -descrption
 -imge
 -name
--services name 
+-personal job
 
 Contact Me 
 
