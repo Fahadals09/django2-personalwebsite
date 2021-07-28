@@ -1,6 +1,9 @@
 from django.contrib import admin
-from .models import post 
-
+from .models import Post 
+from django_summernote.admin import SummernoteModelAdmin
 
 # Register your models here.
-admin.site.register(post)
+
+class PostModelAdmin(SummernoteModelAdmin):  # instead of ModelAdmin
+    summernote_fields = ('content')
+admin.site.register(Post , PostModelAdmin)
