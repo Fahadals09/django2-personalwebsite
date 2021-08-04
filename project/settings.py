@@ -44,6 +44,10 @@ INSTALLED_APPS = [
     'Feedback',
     'Services',
     'django_summernote',
+    'About',
+    'taggit',
+    'new',
+
 
 
 

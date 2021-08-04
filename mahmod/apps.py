@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class AboutConfig(AppConfig):
+class MahmodConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'About'
+    name = 'mahmod'
